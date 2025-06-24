@@ -10,9 +10,20 @@
     "postinstall": "nuxt prepare"
   },
   "dependencies": {
+    "@nuxt/fonts": "0.11.4",
+    "@nuxt/icon": "1.14.0",
+    "@nuxt/image": "1.10.0",
+    "@nuxt/scripts": "0.11.8",
+    "@unhead/vue": "^2.0.10",
     "nuxt": "^3.17.5",
     "vue": "^3.5.17",
     "vue-router": "^4.5.1"
   },
-  "packageManager": "pnpm@10.12.2+sha512.a32540185b964ee30bb4e979e405adc6af59226b438ee4cc19f9e8773667a66d302f5bfee60a39d3cac69e35e4b96e708a71dd002b7e9359c4112a1722ac323f"
+  "packageManager": "pnpm@10.12.2+sha512.a32540185b964ee30bb4e979e405adc6af59226b438ee4cc19f9e8773667a66d302f5bfee60a39d3cac69e35e4b96e708a71dd002b7e9359c4112a1722ac323f",
+  "devDependencies": {
+    "@unocss/nuxt": "^66.2.3",
+    "@unocss/preset-mini": "^66.2.3",
+    "sass-embedded": "^1.89.2",
+    "unocss": "^66.2.3"
+  }
 }
