@@ -21,7 +21,7 @@
                                 <ul class="mb-10 flex flex-wrap items-center justify-center gap-4 md:gap-5">
                                     <li>
                                         <a href="javascript:void(0)"
-                                            class="inline-flex items-center justify-center rounded-md bg-primary-color text-primary px-5 py-3 text-center text-base font-medium shadow-md hover:bg-primary-light-5 md:px-7 md:py-[14px] gap-4"
+                                            class="inline-flex items-center justify-center rounded-md bg-white !text-orange-500 px-5 py-3 text-center text-base font-medium shadow-md hover:bg-orange-200 md:px-7 md:py-[14px] gap-4"
                                             role="button"
                                         >
                                             <Icon name="ic:baseline-cloud-download" /> Download
@@ -921,6 +921,7 @@ input:where([type='button']),
 input:where([type='reset']),
 input:where([type='submit']) {
     -webkit-appearance: button;
+    appearance: button;
     /* 1 */
     background-color: transparent;
     /* 2 */
@@ -968,6 +969,7 @@ Correct the cursor style of increment and decrement buttons in Safari.
 
 [type='search'] {
     -webkit-appearance: textfield;
+    appearance: textfield;
     /* 1 */
     outline-offset: -2px;
     /* 2 */
@@ -1107,9 +1109,6 @@ iframe,
 embed,
 object {
     display: block;
-    /* 1 */
-    vertical-align: middle;
-    /* 2 */
 }
 
 /*
