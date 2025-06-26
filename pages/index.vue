@@ -118,22 +118,6 @@ const tagName = (data.value as any).tag_name;
                                         Today, Believers Sword is not just a project—it's something I use personally to study the Bible. And as I grow in both faith and skill, I continue to develop the app, little by little, with the hope that it can help others too.
                                     </p>
                                 </div>
-
-                                <div class="tabs-content mt-4" id="tabs-panel-history" tabindex="-1" role="tabpanel"
-                                    aria-labelledby="tabs-list-history">
-                                    <p>
-                                        It is a long established fact that a reader will be
-                                        distracted by the readable content of a page when looking at
-                                        its layout. The point of using Lorem Ipsum is that it has a
-                                        more-or-less normal distribution of letters, look like
-                                        readable English.
-                                    </p>
-                                    <p>
-                                        There are many variations of passages of Lorem Ipsum
-                                        available, but the majority have in some form, by injected
-                                        humour.
-                                    </p>
-                                </div>
                             </div>
                         </div>
                     </div>
