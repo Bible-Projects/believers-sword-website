@@ -88,8 +88,7 @@ defineOgImageComponent("BelieverSwordOg");
                                 <small>
                                     This is only available for
                                     <b>Windows OS</b>, Coming soon for MAC and
-                                    Linux By downloading, you agree to use it to
-                                    study the bible heartily.
+                                    Linux.
                                 </small>
                             </div>
                         </div>
