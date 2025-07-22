@@ -11,5 +11,12 @@ export default defineNuxtConfig({
   ],
   css: [
     '@/assets/styles/main.scss'
-  ]
+  ],
+  nitro: {
+    preset: 'vercel',
+    routeRules: {
+      // force fallback to avoid generating invalid named regex
+      '/**': { redirect: '/404' }
+    }
+  }
 })
