@@ -1,5 +1,0 @@
-{
-  "buildCommand": "npx nuxi build",
-  "outputDirectory": ".output/public",
-  "routes": []
-}
